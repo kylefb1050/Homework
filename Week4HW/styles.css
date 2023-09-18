@@ -12,6 +12,6 @@
     border: 10px;
 }
 
-h3 + footer {
-    font-weight: bold;
+h3 + a {
+    background-color: red;
 }
