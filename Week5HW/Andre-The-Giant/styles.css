@@ -1,0 +1,57 @@
+html {
+    background-color: antiquewhite;
+}
+
+body {
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    height: 100%;
+}
+
+div {
+    border: 2px solid burlywood;
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-left: 35px;
+}
+
+#introPic {
+    float: left;
+}
+
+#bio {
+    text-align: center;
+    margin-left: -70px;
+}
+
+#bio > li {
+    padding: 2px;
+}
+
+#pro {
+    width: auto;
+}
+
+#Stuff {
+    
+}
+
+@media (max-width: 750px) {
+    #bio {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
